@@ -69,12 +69,12 @@
       "version_requirement": ">= 3.2.0"
     }
   ],
-  "name": "pdxcat-autofs",
-  "version": "1.1.0",
+  "name": "geoffwilliams-autofs",
+  "version": "1.1.1",
   "source": "https://github.com/pdxcat/puppet-module-autofs",
   "author": "Reid Vandewiele",
   "license": "Apache-2.0",
-  "summary": "Puppet module for Autofs",
+  "summary": "Puppet module for Autofs (maintenance release to support Suse Linux)",
   "project_page": "https://github.com/pdxcat/puppet-module-autofs",
   "dependencies": [
     {

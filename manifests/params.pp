@@ -24,6 +24,13 @@ class autofs::params {
       $package    = [ 'autofs' ]
       $service    = 'autofs'
     }
+    'Suse': {
+      $group      = 'root'
+      $master     = '/etc/auto.master'
+      $owner      = 'root'
+      $package    = [ 'autofs' ]
+      $service    = 'autofs'
+    }
     default: {
       fail("osfamily not supported: ${::osfamily}")
     }
