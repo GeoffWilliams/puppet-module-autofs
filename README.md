@@ -3,7 +3,9 @@
 [![Puppet Forge](http://img.shields.io/puppetforge/v/pdxcat/autofs.svg)](https://forge.puppetlabs.com/pdxcat/autofs) [![Build Status](https://travis-ci.org/pdxcat/puppet-module-autofs.png?branch=master)](https://travis-ci.org/pdxcat/puppet-module-autofs)
 
 ## Description
-Puppet module for managing Autofs mountpoints and files.
+This is a maintainance release of `pdxcat/autofs` to support Sles.  You should probably use `puppet/autofs`
+
+_Puppet module for managing Autofs mountpoints and files._
 
 ### Some Contrived Example usage
 
